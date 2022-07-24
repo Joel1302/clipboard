@@ -1,0 +1,115 @@
+:root {
+  --strong-cyan: hsl(171, 66%, 44%);
+  --hover-cyan: hsl(171, 70%, 51%);
+  --light-blue: hsl(233, 100%, 69%);
+  --hover-blue: hsl(233, 100%, 76%);
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+  --footer-gray: #f5f6f8;
+  --social-media-gray: #4c545c;
+}
+. {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--dark-grayish-blue);
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url(./images3/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0 40px;
+}
+img {
+  max-width: 100%;
+}
+p {
+  line-height: 1.5;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 30px auto;
+  max-width: 100%;
+  width: 1200px;
+}
+.container-samll {
+  width: 700px;
+}
+.flex {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.flex > * {
+  flex: 1;
+  padding: 10px;
+}
+.btn {
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 35px;
+  margin: 15px 5px;
+}
+.btn-primary {
+  background-color: var(--strong-cyan);
+  box-shadow: 0 4px hsl(171, 66%, 44%);
+}
+.btn-secondary {
+  background-color: var(--light-blue);
+  box-shadow: 0 4px hsl(233, 100%, 69%);
+}
+
+footer {
+  margin-top: 50px;
+  padding: 2rem;
+  background-color: var(--footer-gray);
+  text-align: center;
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+  font-size: 1rem;
+}
+
+footer img {
+  width: 60px;
+  margin-bottom: 2rem;
+}
+footer ul {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+footer ul li {
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+footer ul a {
+  color: var(--dark-grayish-blue);
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer ul li a:hover {
+  color: var(--strong-cyan);
+}
+
+footer .social {
+  margin-right: 10px;
+}
+
+footer .social a {
+  font-size: 23px;
+  margin-right: 10px;
+}
